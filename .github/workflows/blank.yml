@@ -1,7 +1,11 @@
 # This is a basic workflow to help you get started with Actions
+name: demo
+   
+on: [workflow_dispatch]  
+   
 jobs:  
   build:  
-    name: demo  
+    name: demo
     runs-on: windows-latest  
     strategy:  
       max-parallel: 5  
